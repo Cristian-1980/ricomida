@@ -1,0 +1,125 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+:root {
+    --bg-nav-font: #373a3c;
+    --border-color: #dddddd;
+    --line-color: #000;
+    --white-font: #fff;
+    --bg-red: #dc3545;
+}
+
+/* Todo el cuerpo con fuente Cabin */
+
+
+
+/* Sección Navbar */
+
+
+.textRicomida {
+    font-family: "Lobster", sans-serif;
+}
+
+/* Sección header foto pizza y texto lateral*/
+#encabezado {
+    margin-top: 7rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+}
+
+.divtextoPizza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.textPizza {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--line-color);
+
+}
+
+
+/* Sección carrusel */
+
+#carrusel {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--line-color);
+
+}
+
+/* Recetas */
+
+#recetas {
+
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--line-color);
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    /* text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify; */
+}
+
+/* tarjetas */
+
+#tarjetas {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-bottom: 2rem;
+    }
+    
+.card {
+    padding: 0;
+}
+
+#tarjetas h2{
+font-weight: 700;
+    
+
+}
+
+
+
+#suscripcion {
+    background-color: var(--bg-red);
+    color: var(--white-font);
+    text-align: center;
+    padding: 7rem;
+}
+
+.susc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoRicomida {
+    font-family: "Lobster", sans-serif;
+    margin-left: 0.5rem;
+}
+
+footer {
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    background-color: var(--bg-nav-font);
+    color: var(--white-font);
+    height: 6rem;
+    padding-top: 2rem;
+}
